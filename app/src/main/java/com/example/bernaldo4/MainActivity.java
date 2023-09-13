@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         editText = findViewById(R.id.urltxt);
         button = findViewById(R.id.gotoURL);
 //        textView = findViewById(R.id.textview;
-
+//
         button.setOnClickListener(view -> {
             String url = editText.getText().toString();
             Intent urlIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(textView.getText().toString() + url));
